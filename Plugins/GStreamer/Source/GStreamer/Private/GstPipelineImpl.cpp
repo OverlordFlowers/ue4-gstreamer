@@ -2,7 +2,7 @@
 #include <string>
 #include <thread>
 
-extern "C" {
+extern "C++" {
 	#include <gst/gst.h>
 }
 

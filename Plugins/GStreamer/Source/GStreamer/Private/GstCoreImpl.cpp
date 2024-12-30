@@ -1,6 +1,6 @@
 #include "GstCoreImpl.h"
 
-extern "C" {
+extern "C++" {
 	#include <gst/gst.h>
 	#include <gst/gstregistry.h>
 }

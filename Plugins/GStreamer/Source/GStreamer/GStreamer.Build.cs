@@ -25,7 +25,7 @@ public class GStreamer : ModuleRules
 
         if (Target.Platform == UnrealTargetPlatform.Win64)
         {
-            const string GStreamerRoot = @"C:\dev\gstreamer_dev\1.0\msvc_x86_64"; // path to gstreamer development package
+            const string GStreamerRoot = @"D:\gstreamer\1.0\msvc_x86_64"; // path to gstreamer development package
 
             PrivateIncludePaths.Add(Path.Combine(GStreamerRoot, "include"));
             PrivateIncludePaths.Add(Path.Combine(GStreamerRoot, "include", "gstreamer-1.0"));

@@ -2,7 +2,7 @@
 #include "GstPipelineImpl.h"
 #include "GstSampleImpl.h"
 
-extern "C" {
+extern "C++" {
 	#include <gst/gst.h>
 	#include <gst/video/video-format.h>
 }

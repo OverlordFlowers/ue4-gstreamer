@@ -1,7 +1,7 @@
 #include "GstSampleImpl.h"
 #include <memory.h>
 
-extern "C" {
+extern "C++" {
 	#include <gst/gst.h>
 	#include <gst/video/video-format.h>
 }
